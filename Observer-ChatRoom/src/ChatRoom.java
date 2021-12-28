@@ -54,7 +54,6 @@ public class ChatRoom{
 	// 즉, 사용자마다 전달해야 하는 메시지 수가 다를 수 있음
 	// 특정 사용자는 현재 오프라인일 수 있음
 	public void updateUsers() {
-		// 완성하시오.
 	      if(userList.isEmpty()) return;
 	      for(String userID: userList.keySet()) {
 	    	  if (userList.get(userID) < roomLog.size()) {
